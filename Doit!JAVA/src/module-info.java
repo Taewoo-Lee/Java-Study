@@ -1,0 +1,2 @@
+module doit_JAVA {
+}

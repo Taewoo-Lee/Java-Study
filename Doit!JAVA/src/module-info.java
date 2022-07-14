@@ -1,2 +1,0 @@
-module doit_JAVA {
-}

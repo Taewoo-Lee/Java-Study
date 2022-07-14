@@ -15,7 +15,7 @@ public class Dd2 {
 		PreparedStatement pstmt = null;
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con = DriverManager.getConnection(url, "C##SCOTT", "TIGER");
+			con = DriverManager.getConnection(url, "C##SCOTT", "1234");
 			pstmt = con.prepareStatement(que);
 			pstmt.setInt(1, 1234);
 			pstmt.setString(2, "JACK");

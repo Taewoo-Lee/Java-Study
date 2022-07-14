@@ -12,7 +12,7 @@ class Cc {
 		
 		try {
 			String id = "C##SCOTT";
-			String pw = "TIGER";
+			String pw = "1234";
 			String url = "jdbc:oracle:thin:@localhost:1521/xe";
 			
 			Class.forName("oracle.jdbc.driver.OracleDriver");
